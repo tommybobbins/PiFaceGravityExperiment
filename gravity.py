@@ -55,6 +55,7 @@ while (pifacedigital.input_pins[0].value == 0): # While switch 0 is not closed
 end_time = time.time()
 
 elapsed_time = end_time - start_time
+#  %2.6f is a non-integer number with 2 figures before, 6 after decimal point
 print("Elapsed time was %2.6f seconds" % (elapsed_time))
 
 # Switch off relay to preserve battery power for next time
