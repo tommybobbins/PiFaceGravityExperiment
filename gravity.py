@@ -88,3 +88,13 @@ pifacedigital.relays[0].turn_off()
 acceleration_due_to_gravity = ( 2.0 * height ) / ((elapsed_time)**2)
 print ("I calculate the acceleration due to gravity to be %1.3f (ms^-2)\n" % acceleration_due_to_gravity)
 
+
+# Things to think about:
+# 0: Should we repeat the experiment and take the mean of our readings?
+# 1: Does the ball bearing release at the same time as the relay switches off?
+# 2: Does the tin-foil slow down the ball bearing before the switch closes?
+# 3: Does the Pi read fast enough? 
+# 4: Air resistance?
+# 5: Would it be different if we were dropping a tennis ball?
+# 6: Would it be different on the Moon?
+# 7: A better way to measure acceleration due to gravity?
