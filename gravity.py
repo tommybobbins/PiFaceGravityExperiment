@@ -3,7 +3,7 @@
 # The top line tells the computer what language we are using #!/usr/bin/python
 
 #####YOU NEED TO EDIT THIS VALUE###############################################
-height = 0.70  # height in metres of the electromagnet above the tin foil switch
+height = 0.72  # height in metres of the electromagnet above the tin foil switch
 
 #######YOU DON'T NEED TO EDIT ANYTHING BELOW HERE (but you can, it's fun!)#####
 ############################IGNORE THESE BITS##################################
@@ -34,7 +34,8 @@ print "Energising the coils."
 while (input != "y"): # While input not equal to y
     input = raw_input("Press y and hit return to Energise the coil.\n")
 pifacedigital.relays[0].turn_on()
-print ("Coil energised")
+print ("Coil energised.")
+print ("Attach one (or more) ball bearings now.")
 ################################################################
 
 
